@@ -1,0 +1,46 @@
+.row1, .row2, .row3{
+    display: flex;
+}
+
+.col1, .col2, .col3, .col4, .col5{
+    flex: 1;
+    background-color: teal;
+    width: 198px;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* .row2{
+    display: flex;
+} */
+
+.col2{
+    flex: 2;
+    /*margin-top: 10px;
+    flex: 2;
+    background-color: teal;
+    margin-right: 5px;
+    color: white;*/
+}
+
+.col3{
+    flex: 3;
+    /*margin-top: 10px;
+    flex: 3;
+    background-color: teal;
+    color: white;*/
+}
+
+/*.row3{
+    display: flex;
+}*/
+
+.col4{
+    flex: 4;
+}
+
+
+.col5{
+    flex: 5;
+}
